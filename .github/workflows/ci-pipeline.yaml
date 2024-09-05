@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
   workflow_dispatch:
-  inputs:
+    inputs:
         dry-run:
           type: boolean
           description: Skip push
